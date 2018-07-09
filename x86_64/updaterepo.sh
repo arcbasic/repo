@@ -1,9 +1,9 @@
 #!/bin/bash
 clear
-rm arcbasic_repo*
+rm arcbasic.*
 
 echo "repo-add"
-repo-add -s -n arcbasic_repo.db.tar.gz *.pkg.tar.xz
+repo-add -s  arcbasic.db.tar.gz *.pkg.tar.xz
 
 echo "####################################"
 echo "Repo  Updated!!"
